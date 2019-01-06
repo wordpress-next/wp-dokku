@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "4afe48b4e6b5379b630a417bce6e5196",
+    "content-hash": "355fd62c0ff4dc7b87f1e3b79ce7ef8d",
+    "packages": [
+        {
+            "name": "pmvc/heroku-config",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmvc/heroku-config.git",
+                "reference": "6edd234218aeb2a54ad9b50afc8dbb81121b4359"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pmvc/heroku-config/zipball/6edd234218aeb2a54ad9b50afc8dbb81121b4359",
+                "reference": "6edd234218aeb2a54ad9b50afc8dbb81121b4359",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hill",
+                    "email": "hill@kimo.com"
+                }
+            ],
+            "description": "Heroku PHP centralized configs for TTFB",
+            "keywords": [
+                "heroku"
+            ],
+            "time": "2018-12-20 21:01:09"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^5.6"
+    },
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "5.6.0"
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "require": {
+    "php": "^5.6",
+    "pmvc/heroku-config": "*"
+  },
+  "config": {
+    "platform": {
+      "php": "5.6.0"
+    }
+  }
+}
