@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -f /etc/atp/sources.list
+mv /app/etc/sources.list /etc/apt/
 apt-get update
 apt-get install -y --no-install-recommends msmtp
 
