@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "pmvc/heroku-config",
-            "version": "0.1.2",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc/heroku-config.git",
-                "reference": "9f86a96862369bfac5c1b6b0f19a4ca1676ec160"
+                "reference": "8f987da093a77b805b22a8b3c84da506cde9bdd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc/heroku-config/zipball/9f86a96862369bfac5c1b6b0f19a4ca1676ec160",
-                "reference": "9f86a96862369bfac5c1b6b0f19a4ca1676ec160",
+                "url": "https://api.github.com/repos/pmvc/heroku-config/zipball/8f987da093a77b805b22a8b3c84da506cde9bdd7",
+                "reference": "8f987da093a77b805b22a8b3c84da506cde9bdd7",
                 "shasum": ""
             },
             "type": "library",
@@ -36,7 +36,7 @@
             "keywords": [
                 "heroku"
             ],
-            "time": "2019-01-07 05:01:17"
+            "time": "2019-01-19 04:45:10"
         }
     ],
     "packages-dev": [],
