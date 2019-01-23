@@ -1,7 +1,10 @@
 #!/bin/bash
 
-rm -f /etc/atp/sources.list
-mv /app/etc/sources.list /etc/apt/
+if [ -e /app/etc/sources.list ]; then
+  rm -f /etc/atp/sources.list
+  mv /app/etc/sources.list /etc/apt/
+fi
+
 apt-get update
 apt-get install -y --no-install-recommends msmtp
 
